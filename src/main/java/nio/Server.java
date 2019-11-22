@@ -42,12 +42,13 @@ public class Server {
                     client.register(selector, SelectionKey.OP_READ);
                 }
 
-                if (key.isWritable())
+                if (key.isWritable()){
                     System.out.println("writable.");
+                }
 
-                if (key.isReadable())
+                if (key.isReadable()){
                     System.out.println("readable");
-
+                }
                 iterator.remove();
             }
         }

@@ -11,6 +11,8 @@ import java.net.*;
 public class Client {
 
     public static void main(String[] args) throws IOException {
+        System.out.println("please start client after server");
+
         DatagramSocket client = new DatagramSocket();
 
         String sendStr = "Hello! I'm Client";

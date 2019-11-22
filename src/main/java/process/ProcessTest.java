@@ -14,7 +14,7 @@ public class ProcessTest {
     @Test
     public void ls() throws IOException, InterruptedException {
         Runtime runtime = Runtime.getRuntime();
-        String cmd = "ls -l";
+        String cmd = "cmd";
         Process process = runtime.exec(cmd);
         int value = process.waitFor();
     }

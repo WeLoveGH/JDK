@@ -13,6 +13,9 @@ import java.net.Socket;
 public class Client {
 
     public static void main(String[] args) throws IOException {
+
+        System.out.println("please start client after server");
+
         Socket socket = new Socket();
         socket.setTcpNoDelay(true);
         socket.connect(new InetSocketAddress("www.baidu.com", 80));

@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
-import java.net.SocketException;
 
 /**
  * UDP服务器.
@@ -14,6 +13,9 @@ import java.net.SocketException;
 public class Server {
 
     public static void main(String[] args) throws IOException {
+
+        System.out.println("please start server first");
+
         DatagramSocket server = new DatagramSocket(8080);
 
         byte[] buffer = new byte[1024];

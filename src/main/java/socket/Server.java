@@ -13,6 +13,9 @@ import java.net.Socket;
 public class Server {
 
     public static void main(String[] args) throws IOException {
+
+        System.out.println("please start server first");
+
         ServerSocket ss = new ServerSocket();
         ss.bind(new InetSocketAddress(8080));
         Socket socket = ss.accept();

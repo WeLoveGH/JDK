@@ -49,3 +49,17 @@
 [BufferedInputStream](https://github.com/seaswalker/JDK/blob/master/note/BufferedInputStream/bufferedinputstream.md)
 
 [Enum](https://github.com/seaswalker/JDK/blob/master/note/Enum/enum.md)
+
+English search is very good!!!
+
+[https://www.javatpoint.com/](https://www.javatpoint.com)
+
+[https://1000projects.org/](https://1000projects.org)
+
+[https://www.java-tips.org/](https://www.java-tips.org)
+
+[https://pages.cs.wisc.edu/](https://pages.cs.wisc.edu/)
+
+[10 Best Java Books to Learn Programming in Java](https://www.codewithc.com/best-java-books-beginners-experienced-programmers/)
+
+[https://howtodoinjava.com/](https://howtodoinjava.com/)
